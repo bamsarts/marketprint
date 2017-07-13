@@ -35,3 +35,28 @@ Route::post('/logout','AuthController@logout');
 Route::get('/payment', function(){
 	return view('page.payment');
 });
+
+Route::get('/transaksi',function(){
+	return view('page.transaksi');
+});
+
+Route::get('/history',function(){
+	return view('page.HistoryTransaksi');
+});
+
+Route::get('/dashboard/home', function(){
+	return view('page.dashboard.home');
+});
+
+Route::get('/dashboard/transaksi', function(){
+	return view('page.dashboard.transaksi');
+});
+
+Route::get('/dashboard/produk', function(){
+	return view('page.dashboard.produk');
+});
+
+Route::get('/dashboard/produkadd', function(){
+	return view('page.dashboard.AddProduk');
+});
+

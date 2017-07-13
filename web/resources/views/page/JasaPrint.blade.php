@@ -83,8 +83,8 @@
     	<!-- BEGIN PRODUCTS -->
   		<div class="col-md-2 col-sm-6">
     		<span class="thumbnail">
-      			<img src="http://placehold.it/500x400" alt="...">
-      			<h4>Product Tittle</h4>
+      			<img src="/img/coverbook.png" alt="...">
+      			<h4>Cover Book</h4>
       			<div class="ratings">
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star"></span>
@@ -96,7 +96,7 @@
       			<hr class="line">
       			<div class="row">
       				<div class="col-md-6 col-sm-6">
-      					<p class="price">$29,90</p>
+      					<p class="price">Rp.1600</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
       					<a href="/detailproduk" title=""><button class="btn btn-success right" > Detail</button></a>
@@ -107,8 +107,8 @@
   		</div>
   		<div class="col-md-3 col-sm-6">
     		<span class="thumbnail">
-      			<img src="http://placehold.it/500x400" alt="...">
-      			<h4>Product Tittle</h4>
+      			<img src="/img/idcard.png" alt="...">
+      			<h4>ID Card</h4>
       			<div class="ratings">
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star"></span>
@@ -120,7 +120,7 @@
       			<hr class="line">
       			<div class="row">
       				<div class="col-md-6 col-sm-6">
-      					<p class="price">$29,90</p>
+      					<p class="price">Rp.1500</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
       					<button class="btn btn-success right"> Detail</button>
@@ -131,8 +131,8 @@
   		</div>
   		<div class="col-md-3 col-sm-6">
     		<span class="thumbnail">
-      			<img src="http://placehold.it/500x400" alt="...">
-      			<h4>Product Tittle</h4>
+      			<img src="/img/banner.png" alt="...">
+      			<h4>Banner</h4>
       			<div class="ratings">
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star"></span>
@@ -144,7 +144,7 @@
       			<hr class="line">
       			<div class="row">
       				<div class="col-md-6 col-sm-6">
-      					<p class="price">$29,90</p>
+      					<p class="price">Rp.15000</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
       					<button class="btn btn-success right" > Detail</button>
@@ -155,8 +155,8 @@
   		</div>
   		<div class="col-md-3 col-sm-6">
     		<span class="thumbnail">
-      			<img src="http://placehold.it/500x400" alt="...">
-      			<h4>Product Tittle</h4>
+      			<img src="/img/brosur.png" alt="...">
+      			<h4>Brosur</h4>
       			<div class="ratings">
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star"></span>
@@ -168,7 +168,7 @@
       			<hr class="line">
       			<div class="row">
       				<div class="col-md-6 col-sm-6">
-      					<p class="price">$29,90</p>
+      					<p class="price">Rp.3000</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
       					<button class="btn btn-success right" > Detail</button>

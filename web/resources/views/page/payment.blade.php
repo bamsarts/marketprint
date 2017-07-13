@@ -6,10 +6,16 @@
 	<div class="menu-btn">&#9776;</div>
 		<nav class="pushy pushy-left">
 		<div class="profile">
-			<div class="avatar"><img src="img/avatar/ava_16.jpg" alt="#"><span>5</span></div>
-			<h3><a href="03.html">Bambang Supriadi</a></h3>
-			<a href="#" class="log_btn">Log in</a>
+			<div class="avatar"><img src="img/pp_user/pp.jpg" alt="#"><span>5</span></div>
+			<h3><a href="03.html">BambangS</a></h3>
+			<a href="#" class="log_btn">Logout</a>
 		</div>
+        <ul class="side_menu">
+<li><a href="/notifikasi"><i class="fa fa-bell"></i>Pesan</a></li>
+<li><a href="/transaksi"><i class="fa fa-mail-reply"></i>Transaksi</a></li>
+<li><a href="01.html" class="animsition-link"><i class="fa fa-money"></i>Topup Saldo</a></li>
+<li><a href="05.html"><i class="fa fa-edit"></i>Buat Toko</a></li>
+</ul>
 		</nav>
 
 	<!--autorization-->
@@ -41,10 +47,6 @@
 
 <div class="container-fluid">
 <div class="container page_info"> 
-	
-
-	
-
             <div class="row cart-head">
                 <div class="container">
                 <div class="row">
@@ -73,58 +75,32 @@
                         <div class="panel-body">
                             <div class="form-group">
                                 <div class="col-sm-3 col-xs-3">
-                                    <img class="img-responsive" src="//c1.staticflickr.com/1/466/19681864394_c332ae87df_t.jpg" />
+                                    <img class="img-responsive" src="/img/brosur.png" />
                                 </div>
                                 <div class="col-sm-6 col-xs-6">
-                                    <div class="col-xs-12">Product name</div>
-                                    <div class="col-xs-12"><small>Quantity:<span>1</span></small></div>
-                                </div>
-                                <div class="col-sm-3 col-xs-3 text-right">
-                                    <h6><span>$</span>25.00</h6>
-                                </div>
-                            </div>
-                            <div class="form-group"><hr /></div>
-                            <div class="form-group">
-                                <div class="col-sm-3 col-xs-3">
-                                    <img class="img-responsive" src="//c1.staticflickr.com/1/466/19681864394_c332ae87df_t.jpg" />
-                                </div>
-                                <div class="col-sm-6 col-xs-6">
-                                    <div class="col-xs-12">Product name</div>
-                                    <div class="col-xs-12"><small>Quantity:<span>1</span></small></div>
-                                </div>
-                                <div class="col-sm-3 col-xs-3 text-right">
-                                    <h6><span>$</span>25.00</h6>
-                                </div>
-                            </div>
-                            <div class="form-group"><hr /></div>
-                            <div class="form-group">
-                                <div class="col-sm-3 col-xs-3">
-                                    <img class="img-responsive" src="//c1.staticflickr.com/1/466/19681864394_c332ae87df_t.jpg" />
-                                </div>
-                                <div class="col-sm-6 col-xs-6">
-                                    <div class="col-xs-12">Product name</div>
+                                    <div class="col-xs-12">Brosur</div>
                                     <div class="col-xs-12"><small>Quantity:<span>2</span></small></div>
                                 </div>
                                 <div class="col-sm-3 col-xs-3 text-right">
-                                    <h6><span>$</span>50.00</h6>
+                                    <h6><span>Rp</span> 3000</h6>
                                 </div>
                             </div>
                             <div class="form-group"><hr /></div>
                             <div class="form-group">
                                 <div class="col-xs-12">
                                     <strong>Subtotal</strong>
-                                    <div class="pull-right"><span>$</span><span>200.00</span></div>
+                                    <div class="pull-right"><span>Rp</span><span> 6000</span></div>
                                 </div>
                                 <div class="col-xs-12">
-                                    <small>Shipping</small>
-                                    <div class="pull-right"><span>-</span></div>
+                                    <small>Kode pembayaran</small>
+                                    <div class="pull-right"><span>Rp</span><span> 634</span></div>
                                 </div>
                             </div>
                             <div class="form-group"><hr /></div>
                             <div class="form-group">
                                 <div class="col-xs-12">
                                     <strong>Order Total</strong>
-                                    <div class="pull-right"><span>$</span><span>150.00</span></div>
+                                    <div class="pull-right"><span>Rp</span><span> 6634</span></div>
                                 </div>
                             </div>
                         </div>
@@ -132,71 +108,37 @@
                     <!--REVIEW ORDER END-->
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-md-pull-6 col-sm-pull-6">
-                    <!--SHIPPING METHOD-->
-                    <div class="panel panel-info">
-                        <div class="panel-heading">Address</div>
-                        <div class="panel-body">
-                            <div class="form-group">
-                                <div class="col-md-12">
-                                    <h4>Shipping Address</h4>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-md-12"><strong>Country:</strong></div>
-                                <div class="col-md-12">
-                                    <input type="text" class="form-control" name="country" value="" />
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-md-6 col-xs-12">
-                                    <strong>First Name:</strong>
-                                    <input type="text" name="first_name" class="form-control" value="" />
-                                </div>
-                                <div class="span1"></div>
-                                <div class="col-md-6 col-xs-12">
-                                    <strong>Last Name:</strong>
-                                    <input type="text" name="last_name" class="form-control" value="" />
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-md-12"><strong>Address:</strong></div>
-                                <div class="col-md-12">
-                                    <input type="text" name="address" class="form-control" value="" />
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-md-12"><strong>City:</strong></div>
-                                <div class="col-md-12">
-                                    <input type="text" name="city" class="form-control" value="" />
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-md-12"><strong>State:</strong></div>
-                                <div class="col-md-12">
-                                    <input type="text" name="state" class="form-control" value="" />
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-md-12"><strong>Zip / Postal Code:</strong></div>
-                                <div class="col-md-12">
-                                    <input type="text" name="zip_code" class="form-control" value="" />
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-md-12"><strong>Phone Number:</strong></div>
-                                <div class="col-md-12"><input type="text" name="phone_number" class="form-control" value="" /></div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-md-12"><strong>Email Address:</strong></div>
-                                <div class="col-md-12"><input type="text" name="email_address" class="form-control" value="" /></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--SHIPPING METHOD END-->
+                    
                     <!--CREDIT CART PAYMENT-->
                     <div class="panel panel-info">
-                        <div class="panel-heading"><span><i class="glyphicon glyphicon-lock"></i></span> Secure Payment</div>
+                        <div class="panel-heading"><span><i class="glyphicon glyphicon-lock"></i></span>Metode Pembayaran</div>
                         <div class="panel-body">
+                            <div class="form-group">
+                            <div class="col-md-12"><strong>metode pembayaran</strong></div>
+                                <div class="col-md-12">
+                                    <div class="radio">
+                                  <label><input type="radio" name="optradio">E-wallet</label>
+                                </div>
+                                <div class="radio">
+                                  <label><input type="radio" name="optradio">Bank Transfer</label>
+                                </div>
+                                <div class="radio disabled">
+                                  <label><input type="radio" name="optradio">Credit Card</label>
+                                </div>
+                                </div>
+                                
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Transfer</strong></div>
+                                <div class="col-md-12">
+                                    <select id="CreditCardType" name="CreditCardType" class="form-control">
+                                        <option value="5">Mandiri</option>
+                                        <option value="6">BCA</option>
+                                        <option value="7">BNI</option>
+                                        <option value="8">BRI</option>
+                                    </select>
+                                </div>
+                            </div>
                             <div class="form-group">
                                 <div class="col-md-12"><strong>Card Type:</strong></div>
                                 <div class="col-md-12">
@@ -269,7 +211,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <button type="submit" class="btn btn-primary btn-submit-fix">Place Order</button>
+                                    <button type="submit" class="btn btn-primary btn-submit-fix">Checkout</button>
                                 </div>
                             </div>
                         </div>
